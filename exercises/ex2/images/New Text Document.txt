@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Koral Tsaba</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <a href="#" id="logo"> <span>Koral Tsaba</span></a>
+    </header>
+    <nav>
+        <a href="#">OVERWIEW</a>
+        <a href="#">JOBS</a>
+        <a href="#">HOBBIES</a>
+        <a href="#">CONTACT</a>
+        <a href="#">SIGNUP</a>
+    </nav>
+    <main>
+        <img src="images/profile.jpg" alt="koral profile">
+        <button id="signup">SIGNUP</button>
+    <section>
+        <h1>Koral Tsaba</h1>
+        <p>Hello,my name is Koral, i am 27 years old.Second Year B.Sc Student in Software Engineering
+            (Shenkar College of Engineering and Design).
+            Logical/analytical approach, flexible thinking, willingness to take on professional challenges,
+            achievement and results oriented.
+        </p>
+        <a href="">More about me...</a>
+            <section>
+                <img src="images/wolt.jpg" alt="wolt">
+                <section>
+                    <a href="https://wolt.com/en/delivers-to-me">WOLT-Trainer</a>
+                </section>
+            </section>
+            <section>
+                <img src="images/nahal.jpg" alt="nahal">
+                <section>
+                    <a href="https://www.idf.il/%D7%90%D7%AA%D7%A8%D7%99%D7%9D/%D7%97%D7%98%D7%99%D7%91%D7%AA-%D7%94%D7%A0%D7%97%D7%9C/%D7%A0%D7%97%D7%9C/%D7%94%D7%9B%D7%99%D7%A8%D7%95-%D7%90%D7%AA-%D7%97%D7%98%D7%99%D7%91%D7%AA-%D7%A0%D7%97%D7%9C/">Nahal Brigade-Chief Training </a>
+                </section>
+            </section>
+            <section>
+                <img src="images/hummer.jpg" alt="hummer">
+                <section>
+                    <a href="https://www.idf.il/%D7%90%D7%AA%D7%A8%D7%99%D7%9D/%D7%94%D7%9E%D7%A8%D7%9B%D7%96-%D7%9C%D7%90%D7%99%D7%9E%D7%95%D7%A0%D7%99-%D7%99%D7%91%D7%A9%D7%94/%D7%9E%D7%9C%D7%99/10-%D7%A2%D7%95%D7%91%D7%93%D7%95%D7%AA-%D7%9E%D7%A4%D7%A2%D7%99%D7%9C%D7%95%D7%AA-%D7%94%D7%90%D7%9E%D7%A8/">Company Commander</a>
+                </section>
+            </section>
+    </section>
+    <section>
+        <h1>My Skills</h1>
+        <section>
+            <a href="#">
+                <img src="images/flexibility.svg" alt="Flexibility">
+                <h2>Flexibility</h2>
+                <p>blablabla</p>
+            </a>
+        </section>
+        <section>
+            <a href="#">
+                <img src="images/teamSpirit.svg" alt="Team Spirit">
+                <h2>Team spirit</h2>
+                <p>blablabla</p>
+            </a>
+        </section>
+        <section>
+            <a href="#">
+                <img src="images/creativity.svg" alt="Creativity">
+                <h2>Creativity</h2>
+                <p>blablabla</p>
+            </a>
+        </section>
+        <section>
+            <a href="#">
+                <img src="images/personality.svg" alt="">
+                <h2>Personality</h2>
+                <p>blablabla</p>
+            </a>
+        </section>
+    </section>
+    </main>
+    <footer>
+        <section>
+            <a href="https://www.facebook.com/koral.tsaba"><img src="images/facebook.svg" alt="facebook"></a>
+            <a href="https://www.instagram.com/koral_tsaba/"><img src="images/instagram.svg" alt="Instagram"></a>
+            <a href="https://www.linkedin.com/in/koral-tsaba/"><img src="images/linkedin.svg" alt="Linkedin"></a>
+            <h2>Copyright 2021 Koral Tsaba</h2>
+        </section>
+    </footer>
+</body>
+</html> 
