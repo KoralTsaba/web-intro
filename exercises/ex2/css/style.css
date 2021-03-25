@@ -19,7 +19,6 @@ a {
 }
 
 header {
-    /* Bg */
 position: absolute;
 width: 1440px;
 height: 657px;
@@ -27,5 +26,252 @@ left: 1px;
 top: 0px;
 
 background: #ED4C5C;
+
+}
+#logo {
+    background-image: url("../images/manta-ray-shape.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    left: 51px;
+    top: 59px;
+
+}
+
+#logo span {
+    position: relative;
+    margin-left: 35px;
+    color: #ffffff;
+    font-family: Lato;
+    font-size: 18px ;
+}
+nav {
+    position: absolute;
+    width: 445px;
+    height: 22px;
+    left: 49px;
+    top: 129px;
+
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    text-transform: uppercase;
+}
+
+nav a {
+    color: #FFFFFF;
+    position: relative;
+    /* width: 100px; */
+    /* text-align: center; */
+    /* float: left; */
+    
+}
+nav a:hover {
+    color:#464053;
+}
+#mainImg {
+    position: absolute;
+    left: 90px;
+    top: 196px;
+    border-radius: 15px;
+}
+#signup {
+    position: absolute;
+    width: 160px;
+    height: 50px;
+    left: 51px;
+    top: 552px;
+
+    background: #FFFFFF;
+    border-radius: 6px;
+    border: none;
+    color: #ED4C5C;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.aboutMe {
+    position: absolute;
+    top: 657px;
+    margin-top: 56px;
+    left: 50px;
+    width: 445px;
+    height: 305px;
+    
+}
+
+.aboutMe h1 {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 43px;
+}
+.aboutMe p {
+    margin-top: 30px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140%;
+    text-align: justify;
+    color: #000000;
+}
+.aboutMe a {
+    position: relative;
+    top: 20px;
+    color: #ED4C5C;
+}
+
+.cards {
+    width: 1110px;
+    height: 248px;
+    position: absolute;
+    left: 50px;
+    top: 1002px;
+    display: flex;
+    justify-content: space-between;
+}
+.card {
+    position: relative;
+    float: left;
+}
+.card img {
+    border-radius: 8px;
+
+}
+
+.card a {
+    position: relative;
+    color: #ED4C5C;
+    width: 350px;
+    height: 40px;
+    background: #ffffff;
+    float: left;
+    text-align: center;
+    bottom: 40px;
+    border-radius: 8px;
+    line-height: 40px;
+    font-weight: bold;
+    font-size: 14px;
+    font-style: normal;
+    box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.1);
+
+}
+
+.skillsSection{
+    position: absolute;
+    top: 1314px;
+    width: 1440px;
+    height: 657px;
+    background: #f5f4f4;
+}
+.skillsSection h1 {
+    width: 300px;
+    height: 47px;
+    margin-top: 57px;
+    margin-left: 50px;
+    left: 50px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 43px;
+   
+
+}
+#skillsSpace {
+    position: relative;
+    display: block;
+    float: left;
+    margin-left: 20px;
+}
+.skills {
+    width: 1110px;
+    height: 226px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 56px;
+}
+
+.skills img {
+    width: 70px;
+    height: 47px;
+    margin-left: 92px;
+    margin-top: 70px;
+}
+.skills h2 {
+    margin-top: 12.5px;
+    width: 255px;
+    text-align: center;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+}
+.skill p {
+    margin-top: 10px;
+    width: 255px;
+    text-align: center;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+
+}
+
+.skill {
+    background: #FFFFFF;
+    width: 255px;
+    height: 226px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30px;
+    
+}
+
+footer {
+    position: absolute;
+    width: 1440px;
+    height: 80px;
+    left: 0px;
+    top: 1971px;
+
+    background: #ED4C5C;
+}
+
+footer img {
+    width: 30px;
+    position: relative;
+    float: left;
+    top: 27px;
+    margin-right: 25px;
+
+}
+#footerSpace {
+    position: relative;
+    display: block;
+    float: left;
+    width: 53px;
+}
+footer h2 {
+    width: 310px;
+    position: relative;
+    float: left;
+    left: 55px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 80px;
+    color: #FFFFFF;
 
 }
