@@ -183,33 +183,9 @@ footer {
     background-color:#468847;
     height: 100px;
     width: 100px;
-    /* float: left; */
+  
 }
-/* .main2 section {
-    width: 270px;
-    background-color:#468847;
-    float: left;
-    justify-content: space-between; 
-    margin-top: 24px;
-    display: flex; 
-    
-}  */
 
-/* .main2.rightRectangles section {
-    /* /* width: 270px;
-    background-color:#468847; */
-    /* float: left;
-    display: flex;
-}
-     */ 
-    
-
-/* .main2.leftRectangles section {
-    width: 270px;
-    background-color:#468847;
-    float: left;
-    display: flex;
-}  */
 
 .leftRectangles {
   
@@ -224,16 +200,15 @@ footer {
     width: 270px;
     margin-left: 15px;
     margin-top: 24px;
-    /* float: left; */
+    
 
 }
 .square {
     width: 270px;
     background-color: #468847;
-    /* margin-left: 22px;  
-    margin-top: 24px; */
+    
     display: flex;
-    /* float: left; */
+   
 }
 #first {
     height: 325px;
