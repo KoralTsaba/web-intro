@@ -26,6 +26,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 
 #logo {
@@ -34,6 +35,17 @@ header {
     background-repeat: no-repeat;
     width: 90px;
     height: 90px;
+}
+
+.star {
+    display: block;
+    background-image: url(../images/star.svg);
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    background-position:right;
+    margin-left: 290px;
+    
 }
 
 nav li:hover {
@@ -46,10 +58,11 @@ nav li:hover {
     align-items: center;
 }
 
- .nav1 ul {
+.nav1 ul {
     display: flex;
     margin: 0 auto;
     width: 1000px;
+    justify-content: space-evenly;
 }
 
  .nav1 ul li {
@@ -76,11 +89,20 @@ nav li:hover {
     background-color: #eb58eb;
 }
 
+.plus_button {
+    font-size: 150px;
+    color: white;
+    margin-top: 75px;
+    display: inline-block;
+}
+
 main {
     height: 756px;
-    width: 750px;
+    width: 1000px;
     float: left;
     background-color: #ffffff;
+    display: flex;
+    flex-wrap: wrap;    
 }
 
 .container {
@@ -206,8 +228,26 @@ footer {
 .square {
     width: 270px;
     background-color: #468847;
+    background-color: aq;
     
     display: flex;
+   
+}
+.square_main3_unclicked {
+    width: 333px;
+    height: 347px;
+
+    display: inline-block; 
+   
+}
+.square_main3_clicked {
+    width: 333px;
+    height: 347px;
+    background-color: white !important;
+    background-image: url(../images/dirty\ \(1\).jpg);
+    background-repeat:no-repeat;
+    display: inline-block; 
+    background-position: center;
    
 }
 #first {
@@ -231,6 +271,18 @@ footer {
     width: 100%;
     bottom: 0;
     left: 0;
+}
+#footer3 {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+#firstRec{
+    height: 348px;
+    width: 333px;
+    background-color: aquamarine;
+   
 }
 
 
