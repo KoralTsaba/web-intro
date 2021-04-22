@@ -25,14 +25,16 @@ function getRandomColor() {
 
 function addSquareToPage() {
     var addStar = (squares.length + 1) % 3 == 0;
-    var newSquare = createSquare(addStar);
+    var isFirst = squares.length == 0;
+    var isClickable = !isFirst;
+    var newSquare = createSquare(addStar, isClickable);
     var parent = document.getElementById("main3");
     parent.appendChild(newSquare);
 
     squares.push(newSquare);
 }
 
-function createSquare(addStar) {
+function createSquare(addStar, isClickable) {
     var newSquare = document.createElement("div");
 
     newSquare.className = "square_main3_unclicked";
@@ -44,13 +46,15 @@ function createSquare(addStar) {
         newSquare.appendChild(starElement);
     }
 
-    newSquare.addEventListener("click", function (){
-        var isClicked = newSquare.className == "square_main3_clicked";
-        if (isClicked)
-            newSquare.className = "square_main3_unclicked";
-        else
-            newSquare.className = "square_main3_clicked";
-    });
+    if (isClickable) {
+        newSquare.addEventListener("click", function (){
+            var isClicked = newSquare.className == "square_main3_clicked";
+            if (isClicked)
+                newSquare.className = "square_main3_unclicked";
+            else
+                newSquare.className = "square_main3_clicked";
+        });
+    }
 
     return newSquare;
 }
