@@ -1,0 +1,102 @@
+* {
+
+    margin: 0;
+
+    padding: 0;
+
+    font-family:  Helvetica, sans-serif;
+}
+header,
+nav,
+main,
+section,
+footer {
+    display: block;
+}
+
+header {
+        width: 100%;
+        height: 14.26vh;  
+        background: gray;
+  }
+
+.wrapper {
+    width: 100%;
+    height: 76.36vh;
+    background-color: white;
+}
+
+nav {
+    width: 100%;
+    height: 80% ;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+
+nav > ul {
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+    
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+li {
+    list-style-type: none;
+}
+
+
+main {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.ordersList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:flex-end ;
+}
+.ordersList > li {
+    height: 7.22vh;
+    width: 98%;
+    background: lightgray;
+    margin-top: 2.5vh;
+    display: flex;
+    justify-content: center;
+    
+}
+.ordersList > li > a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    height: 100%;
+}
+.ordersListContainer {
+    width: 87.7%;
+    
+    margin-top: 5vh;
+}
+.orderAddress {
+    font-weight: bold;
+    font-size: 120%;
+}
+.orderDate {
+    font-size: 105%;
+    opacity: 50%;
+}
+footer {
+    width: 100%;
+    height:8.78vh ;
+    background-color: grey;
+    margin-top: 10vh;
+}
+
