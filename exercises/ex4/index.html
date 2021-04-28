@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Form-1</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    </head>
+    <body class="d-flex justify-content-center" >
+        <form  action="http://se.shenkar.ac.il/teach/web1/2021/get_form3.php "
+        method = "GET">
+        <div class="jumbotron bg-dark text-white">
+             <h1 class="display-4">Join Our Members Club</h1>
+        </div>
+
+        <label>Full Name:</label>
+        <input class="form-control " type="text" name = "fullname" pattern="\w+\s+\w+" autocomplete/>
+        <br/>
+        <label>Email address:</label>
+        <input class="form-control " type="email" name="mail"/>
+        <br/>
+        <label>Password:</label>
+        <input class="form-control " type="password" placeholder="10 numbers between 0-9" name="pass" pattern ="[0-9]{10}"/>
+        <br/>
+        <label>Website:</label>
+        <input class="form-control " type="url" name="website"/>
+        <br/>
+        <label>Phone:</label>
+        <input class="form-control" placeholder="9-10 numbers" type="tel" name="phone" pattern="[0-9]{10}|[0-9]{9}" />
+        <br/>
+        <label>coffe:</label>
+        <input class="form-control w-25 " type="number" name="coffee" min="0" max="5"/>
+        <br/>
+        <label>Temperture::</label>
+        <input class="form-control w-50 " type="range" name="temper" min="1" max="10"/>
+        <br/>
+        <label>Address:</label>
+        <br/>
+        <textarea class="form-control " name="address" rows="2" cols="30" ></textarea>
+        <br/>
+        <label>Age:</label>
+        <input class="form-control w-25" type="number" name="age" min="18" max="24"/>
+        <br/>
+                <label>Interests:</label>
+                <br/>
+                <input  type="checkbox" id="diving" name="interests[]" value="Diving"/>
+                <label for="diving">Diving</label>
+                <br/>
+                <input  type="checkbox" id="surfing" name="interests[]" value="Surfing" />
+                <label for="surfing">Surfing</label>
+                <br/>
+                <input  type="checkbox" id="cooking"  name="interests[]" value="Cooking"/>
+                <label for="cooking">Cooking</label>
+        <br/>
+        <label>Gender:</label>
+        <br/>
+        <input type="radio" name="gender"  value="Female"/>
+        <label>Female </label>
+        <br/>
+        <input type="radio" name="gender"  value="Male"/>
+        <label>Male </label>
+        <br/>
+        <input type="radio" name="gender" value="other"/>
+        <label>Other </label>
+        <br/>
+
+        <div class="row justify-content-center">
+        <input type="submit" class="btn btn-primary" />
+        </div>
+        
+        </form>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    </body>
+</html>
