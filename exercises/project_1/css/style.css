@@ -67,10 +67,12 @@ main {
 .ordersList > li {
     height: 7.22vh;
     width: 98%;
-    background: lightgray;
+    background: rgb(233, 233, 233);
+    opacity: 100%;
     margin-top: 2.5vh;
     display: flex;
     justify-content: center;
+    border-radius: 15px;
     
 }
 .ordersList > li > a {
@@ -79,7 +81,9 @@ main {
     align-items: center;
     width: 95%;
     height: 100%;
+
 }
+
 .ordersListContainer {
     width: 87.7%;
     
@@ -93,6 +97,51 @@ main {
     font-size: 105%;
     opacity: 50%;
 }
+.orderMain {
+    flex-direction: column;
+    margin-left: 15%;
+    margin-top: 3%;
+
+}
+.receiptItemContainer{
+    margin-top: 5%;
+    width: 60vw;
+    
+}
+.itemContainer {
+    width:20vw ;
+    min-width: 100px;
+    float: left;
+    margin-left: 1.5%;
+    margin-top: 5%;
+    
+}
+.itemContainer > hr {
+    border: 0.5px solid black ;
+    margin-top: 2.5%;
+}
+.itemContainer > ul {
+    margin-top: 5%;
+}
+.buttons {
+    width: 35vw;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.buttons > button {
+    width:15vw ;
+    height: 7vh;
+    border-radius: 20px;
+    background-color: rgb(241, 121, 121);
+    margin-top: 10vh;
+    border: none;
+    font-size: medium;
+    font-weight: bold;
+    
+    
+}
 footer {
     width: 100%;
     height:8.78vh ;
@@ -100,3 +149,25 @@ footer {
     margin-top: 10vh;
 }
 
+.droneType {
+    width: 150px;
+    height: 150px;
+    background-color: aqua;
+    margin: 20px;
+}
+
+.flexLineBreak {
+    flex-basis: 100%;
+    height: 0;
+}
+
+.droneNavButton {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+}
+
+#droneTypesContainer {
+    display: contents;
+}
