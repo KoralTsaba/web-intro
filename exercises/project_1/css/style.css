@@ -247,3 +247,51 @@ footer {
         font-size: 15px;
     }
 }
+
+
+/* paz */
+#orderWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5vh;
+    justify-content: space-around;
+
+}
+.breadcrumb {
+    margin-left: 70px; /*why not 100px like form*/
+}
+
+form {
+    
+    width: 350px;
+       
+}
+
+#itemNumber {
+    width: 150px;
+}
+
+#confirmation {
+    width: 500px;
+    padding: 30px;
+    background-color: #FBE8E8;
+    border-radius: 15px;
+}
+
+.btn-primary {
+    background-color: #F2BEBE;
+    border: none;
+}
+
+#ConfirmationBtn {
+    margin-top: 50px; /*without will change according to note*/
+    text-align: center;
+}
+
+@media only screen and (max-width: 1000px) and (min-width: 700px)  {
+    #confirmation {
+        margin-top: 30px;
+    }
+}
+
+/* problem with footer , only fixed when delete wraper height.*/
