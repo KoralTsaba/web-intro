@@ -1,0 +1,45 @@
+{
+    "drone": [
+        {
+            "name": "Standart",
+            "weight": "5kg",
+            "id": "1"
+        },
+        {
+            "name": "Standart+",
+            "weight": "10kg",
+            "id": "2"
+        },
+        {
+            "name": "Grand",
+            "weight": "15kg",
+            "id": "3"
+        },
+        {
+            "name": "Grand+",
+            "weight": "20kg",
+            "id": "4"
+        },
+        {
+            "name": "Special",
+            "weight": "30kg",
+            "id": "5"
+        }
+
+    ],
+
+    "item": [
+        {
+            "name": "Covid19 test",
+            "id": "1"
+        },
+        {
+            "name": "Blood test",
+            "id": "2"
+        },
+        {
+            "name": "Lab Result",
+            "id": "3"
+        }
+    ]
+}
