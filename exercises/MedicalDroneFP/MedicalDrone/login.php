@@ -84,22 +84,3 @@
 if(isset($connection)){
 mysqli_close($connection);}
 ?>
-
-
-
-<!-- <div class="loginWrapper">
-        <h1 class="loginTitle">Welcome To Medical Drone:</h1>
-        <form action="#" method="post" id="loginForm">
-            <div class="mb-3">
-                <label for="loginMail" class="form-label">Email</label>
-                <input type="email" class="form-control" id="loginMail" name="loginMail" placeholder="Enter your email" required >
-            </div>
-            <div class="mb-3">
-                <label for="loginPass" class="form-label">Password:</label>
-                <input type="password" class="form-control" id="loginPass" name="loginPass" placeholder="Enter you password" pattern="^[#.0-9a-zA-Z\s,-]+$" required>
-            </div>
-            <button type="submit" class="btn btn-primary">Login</button>
-            <button type="submit" class="btn btn-primary">Logout</button>
-            <div class="error-message"><?php if(isset($message)) { echo $message; } ?></div>  
-        </form>
-    </div> -->
