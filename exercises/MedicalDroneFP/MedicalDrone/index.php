@@ -34,10 +34,11 @@
 
 <body>
     <header>
-        <section class="sideNave">
+    <section class="sideNave">
             <div id="mySidenav" class="sidenav">
                 <a href="javascript:void(0)" class="closebtn" id="closebtn" >&times;</a>
                 <a class="selectedN" href="index.php">Home</a>
+                <a href="profile.php">Profile</a>
                 <a href="newOrder.php">Delivery</a>
                 <a href="myOrders.php">My Orders</a>
                 <a href="#">Reports</a>
@@ -54,6 +55,7 @@
                     <li><a href="index.php"> Home</a></li>
                     <li><a href="newOrder.php"> Delivery</a></li>
                     <li><a href="myOrders.php">My orders</a></li>
+                    <li><a href="profile.php">Profile</a></li>
                     <li><a href="#">Reports</a></li>
                     <li><a href="#">Settings</a></li>
                 </ul>

@@ -20,6 +20,8 @@
             $_SESSION["userType"] = $row['UserType'];
             $_SESSION["firstName"] = $row['FirstName'];
             $_SESSION["lastName"] = $row['LastName'];
+            $_SESSION["email"] = $row['Email'];
+            $_SESSION["phone"] = $row['Phone'];
             header('Location: ' . URL . 'index.php');
         } else {
             $message = "Invalid Username or Password!";

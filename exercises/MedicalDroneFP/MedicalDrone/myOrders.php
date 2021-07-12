@@ -34,6 +34,7 @@
             <div id="mySidenav" class="sidenav">
                 <a href="javascript:void(0)" class="closebtn" id="closebtn" >&times;</a>
                 <a class="selectedN" href="index.php">Home</a>
+                <a href="profile.php">Profile</a>
                 <a href="newOrder.php">Delivery</a>
                 <a href="myOrders.php">My Orders</a>
                 <a href="#">Reports</a>
@@ -41,18 +42,21 @@
             </div>
             <span class="humburger" id="humburger" style="font-size:30px;cursor:pointer" >&#9776;</span>
         </section>
+
         <a href="index.php" id="logo"></a>
         <div class="line-nav">
-            <nav class="nav" >
+            
+            <nav class="nav">
                 <ul>
                     <li><a href="index.php"> Home</a></li>
                     <li><a href="newOrder.php"> Delivery</a></li>
                     <li><a href="myOrders.php">My orders</a></li>
+                    <li><a href="profile.php">Profile</a></li>
                     <li><a href="#">Reports</a></li>
                     <li><a href="#">Settings</a></li>
                 </ul>
             </nav>
-         </div>
+        </div>
    
     </header>
     <div class="wrapper">
