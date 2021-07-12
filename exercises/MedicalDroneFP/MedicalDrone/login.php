@@ -36,7 +36,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous"> /
     <link rel="stylesheet" href="css/style.css">
     <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
-    <script src="js/script.js"></script>
+    <script src="js/index.js"></script>
    
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script> 
@@ -64,7 +64,7 @@
                      <input type="password" class="form-control" id="loginPass" name="loginPass" placeholder="Password" pattern="^[#.0-9a-zA-Z\s,-]+$" required>
                   </div>
                   <button type="submit" class="btn btn-black">Login</button>
-                  <button type="submit" class="btn btn-secondary">Logout</button>
+                 
                   <div class="error-message"><?php if(isset($message)) { echo $message; } ?></div> 
                </form>
             </div>

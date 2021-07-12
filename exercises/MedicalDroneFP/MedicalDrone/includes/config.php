@@ -1,3 +1,5 @@
 <?php
-define("URL" , "http://http://se.shenkar.ac.il/students/2020-2021/web1/dev_219/");
+define("URL" , "http://se.shenkar.ac.il/students/2020-2021/web1/dev_219/");
+
+
 ?>

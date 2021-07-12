@@ -613,6 +613,9 @@ background-color: #F2BEBE !important;
     overflow-x: hidden;
     padding-top: 20px;
 }
+.btn:focus {
+    box-shadow: black;
+}
 .btn-secondary:hover {
     color: black;
 }

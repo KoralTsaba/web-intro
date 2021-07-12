@@ -25,56 +25,8 @@ function initialize() {
         });
     }
     
-    
-    
 
-    /* We tried different kind of loop and nothing worked except this */
-    /* check why its not working for drone 4 and 5 */
-    
-    
-    
 
-    /*var dr = document.getElementById("droneLink1");
-    //dr.appendChild(document.createElement("p")).append(data.drone[0].name);
-    //dr.appendChild(document.createElement("div")).append("Up to " + data.drone[0].weight);
-    dr.addEventListener("click", function(){
-        localStorage.droneNum = 1;
-    });
-    var dr = document.getElementById("droneLink2");
-    //dr.appendChild(document.createElement("p")).append(data.drone[1].name);
-    //dr.appendChild(document.createElement("div")).append("Up to " + data.drone[1].weight);
-    dr.addEventListener("click", function(){
-        localStorage.droneNum = 2;
-    });
-    var dr = document.getElementById("droneLink3");
-    //dr.appendChild(document.createElement("p")).append(data.drone[2].name);
-    //dr.appendChild(document.createElement("div")).append("Up to " + data.drone[2].weight);
-    dr.addEventListener("click", function(){
-        localStorage.droneNum = 3;
-    });
-    var dr = document.getElementById("droneLink4");
-    //dr.appendChild(document.createElement("p")).append(data.drone[3].name);
-    //dr.appendChild(document.createElement("div")).append("Up to " + data.drone[3].weight);
-    dr.addEventListener("click", function(){
-        localStorage.droneNum = 4;
-    });
-    var dr = document.getElementById("droneLink5");
-    //dr.appendChild(document.createElement("p")).append(data.drone[4].name);
-    //dr.appendChild(document.createElement("div")).append("Up to " + data.drone[4].weight);
-    dr.addEventListener("click", function(){
-        localStorage.droneNum = 5;
-    });*/
-    
-    /* ---------------------------------------------------------------------*/
-
-    /* not working!!! 
-    var dr = document.getElementsByClassName("droneLink");
-    for (var j = 0; j < dr.length; j++) {
-        dr[j].addEventListener("click", function(){
-            localStorage.droneNum = j;
-        });
-        
-    }*/
 
     droneTypes = $(".droneType");
     refreshDroneTypes();
