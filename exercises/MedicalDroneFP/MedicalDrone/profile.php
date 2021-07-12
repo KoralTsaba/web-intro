@@ -107,7 +107,7 @@
 		<div class="row gutters" style="margin-top:20px;">
 			<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
 				<div class="text-right">
-					<?php echo isset($_GET["editMode"]) ? '<a type="button" href="profile.php" class="btn btn-secondary">Cancel</a>':""; ?>
+					<?php echo isset($_GET["editMode"]) ? '<a type="button" href="profile.php" class="btn btn-secondary">Cancel</a>':'<a type="button" href="logout.php" class="btn btn-secondary">logout</a>'; ?>
 					<?php echo isset($_GET["editMode"]) ? '<input type="submit" value="Save" class="btn btn-primary">' : '<a type="button" href="profile.php?editMode" class="btn btn-primary">Edit</a>'; ?>
 				</div>
 			</div>
